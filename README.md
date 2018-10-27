@@ -32,8 +32,8 @@ _py-kms_ is a port of node-kms created by [cyrozap](http://forums.mydigitallife.
 ```slmgr.vbs -dlv```
 
 # GVLK keys
-- Windows: https://technet.microsoft.com/en-us/library/jj612867(v=ws.11).aspx
-- Office 2013: https://technet.microsoft.com/en-us/library/dn385360.aspx
+- Windows: https://technet.microsoft.com/en-us/library/jj612867(v=ws.11).aspx  
+- Office 2013: https://technet.microsoft.com/en-us/library/dn385360.aspx  
 - Office 2016: https://technet.microsoft.com/en-us/library/dn385360(v=office.16).aspx
 
 # License
