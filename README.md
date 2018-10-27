@@ -25,11 +25,11 @@ _py-kms_ is a port of node-kms created by [cyrozap](http://forums.mydigitallife.
 ```docker run -d -p 1688:1688 --restart=always automatorz/py-kms```
 
 # Windows
-```slmgr.vbs -upk```
-```slmgr.vbs -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
-```slmgr.vbs -skms DOCKER_IP```
-```slmgr.vbs -ato```
-```slmgr.vbs -dlv```
+- ```slmgr.vbs -upk```
+- ```slmgr.vbs -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
+- ```slmgr.vbs -skms DOCKER_IP```
+- ```slmgr.vbs -ato```
+- ```slmgr.vbs -dlv```
 
 # GVLK keys
 - Windows: https://technet.microsoft.com/en-us/library/jj612867(v=ws.11).aspx  
