@@ -41,8 +41,20 @@ Argument _IPADDRESS_ is always required, while the default _PORT_ is "1688", so 
 - To get the HWID from any server use the client, for example type: ```python client.py 0.0.0.0 1688 -m Windows81 -v INFO``` 
 - To generate a random EPID type: ```python randomPID.py```
 
-# Other Important Stuff
-Consult the [Wiki](https://github.com/SystemRage/py-kms/wiki) for more informations about activation with _py-kms_ and to get GVLK keys.
+# Docker
+```docker run -d -p 1688:1688 --restart=always automatorz/py-kms```
+
+# Windows
+```slmgr.vbs -upk```
+```slmgr.vbs -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX```
+```slmgr.vbs -skms DOCKER_IP```
+```slmgr.vbs -ato```
+```slmgr.vbs -dlv```
+
+# GVLK keys
+- Windows: https://technet.microsoft.com/en-us/library/jj612867(v=ws.11).aspx
+- Office 2013: https://technet.microsoft.com/en-us/library/dn385360.aspx
+- Office 2016: https://technet.microsoft.com/en-us/library/dn385360(v=office.16).aspx
 
 # License
    [![License](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://github.com/SystemRage/py-kms/blob/master/LICENSE)
