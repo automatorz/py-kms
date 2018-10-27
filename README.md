@@ -17,9 +17,6 @@ _py-kms_ is a port of node-kms created by [cyrozap](http://forums.mydigitallife.
 	- Microsoft Office 2010 ( Volume License )
 	- Microsoft Office 2013 ( Volume License )
 	- Microsoft Office 2016 ( Volume License )
-- It's written in Python:
-	- _py2-kms_ tested with Python 2.7.12 
-	- _py3-kms_ tested with Python 3.5.2
 
 # Usage
 ```docker run -d -p 1688:1688 --restart=always automatorz/py-kms```
